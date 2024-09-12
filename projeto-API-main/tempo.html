@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo</title>
+    <link rel="stylesheet" href="CEP.html">
+    <link rel="stylesheet" href="dolar.html">
+    <link rel="stylesheet" href="tempo.html">
+    <link rel="stylesheet" href="index.html">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="tempo.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><button>HOME</button></a>
+            <a href=".html"><button>Buscar-CEP</button></a>
+            <a href="dolar.html"><button>Visualizar valor do dolar</button></a>
+            <a href="tempo.html"><button>Visualizar tempo</button></a>
+        </nav>
+       
+    </header>
+    <div class="center">
+    <div class="caixa">
+        <h1>Previsão do tempo</h1>
+        <p>Digite o nome da cidade</p>
+        <input type="text" id="city">
+       <div class="b"> <button onclick="getWeather()">Pesquisar</button></div>
+        <p id="temperatura">Aguarde...</p>
+    </div>
+</div>
+
+
+
+    <script src="tempo.js"></script>
+</body>
+</html>
